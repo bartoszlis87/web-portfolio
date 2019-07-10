@@ -41,13 +41,21 @@
   cursor: pointer;
 }
 
-.box2 h2 {
-  font-size: 70px;
+.box2 .nameSizes {
+  font-size: 4rem;
+  font-weight: bold;
   color: #ffd700;
 }
+.box2 .contentSizes{
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: #ffd700;
+}
+
 .box2 span {
   font-size: 2rem;
   color: white;
+
 
 }
 .bgSizes{

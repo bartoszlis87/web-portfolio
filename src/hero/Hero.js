@@ -10,7 +10,7 @@ function Hero() {
             <section id="about">
                 <div className="info">
                     <h2>About me</h2>
-                    <img src={bg} className="bgSizes" alt="Bartosz Lis"/>
+                    <img src={bg} className="bgSizes"/>
                 </div>
 
                 <div className="content">
@@ -29,9 +29,8 @@ function Hero() {
                     </div>
                     <div className="box2">
                         <div className="description">
-                            <h2>I'm Bartek</h2>
-                            <br/>
-
+                            <div className="nameSizes">I'm Bartek</div>
+                            <div className="contentSizes">Frontend Developer</div>
                         </div>
                     </div>
                 </div>
