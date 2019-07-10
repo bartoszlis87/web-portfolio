@@ -1,0 +1,42 @@
+
+
+.projects{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width:100%;
+  height: auto;
+  padding: 20px;
+}
+
+.projects .item{
+  background-image: url('https://images.unsplash.com/photo-1431578500526-4d9613015464?q=80&fm=jpg&s=169b4f4e6f3882a03b6b93b2e6848052');
+  background-size: cover;
+  background-position: center;
+  min-height: 100%;
+  min-width: auto;
+}
+
+.item-info{
+  background:rgba(0,0,0,0.6);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  min-width:400px;
+  min-height:400px;
+}
+
+.item-info h2{
+  font-weight:900;
+  color:#ffffff;
+}
+
+.item-info span{
+  color:#cfcfcf;
+  font-style:italic;
+  font-size:0.9em;
+  padding-top:5px;
+}

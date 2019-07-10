@@ -9,7 +9,8 @@ function Hero() {
         <>
             <section id="about">
                 <div className="info">
-                    <h2>About me</h2>
+
+                    <div className="boxSize"></div>
                     <img src={bg} className="bgSizes"/>
                 </div>
 
@@ -20,8 +21,6 @@ function Hero() {
                                 <br/>
                                 <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum
              error iusto, natus, ea possimus laborum soluta maxime officia unde
-             doloremque cumque quos pariatur. Distinctio beatae qui sed, quas
-             saepe laudantium.
            </span>
                             </div>
 
