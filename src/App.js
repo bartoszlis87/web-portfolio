@@ -68,6 +68,8 @@ function App(props) {
     )
 }
 
+
+
 export default withFirebaseAuth({
     providers,
     firebaseAppAuth,

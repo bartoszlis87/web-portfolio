@@ -13,7 +13,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "del build 2>nul && del docs 2>nul && react-scripts build && move build docs",
+    "build": "rmdir /S /Q build && rmdir /S /Q docs && react-scripts build && move /Y build docs",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
