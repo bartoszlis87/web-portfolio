@@ -12,7 +12,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "del -f build docs && react-scripts build && move build docs",
+    "build": "del build 2>nul && del docs 2>nul && react-scripts build && move build docs",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
