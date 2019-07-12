@@ -9,14 +9,39 @@
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
     <title>Bartosz Lis</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" >
   </head>
   <body>
 
     <div id="root"></div>
 
-    <video autoplay muted loop id="myVideo">
-      <source src="./myVideo.mp4" type="video/mp4">
-    </video>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/6.2.4/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#config-web-app -->
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyCWLaBepo1zTgVCbshvPDG3XwpeAZ41-Vw",
+        authDomain: "coderslab-f5f9d.firebaseapp.com",
+        databaseURL: "https://coderslab-f5f9d.firebaseio.com",
+        projectId: "coderslab-f5f9d",
+        storageBucket: "",
+        messagingSenderId: "790109108552",
+        appId: "1:790109108552:web:e725b666689a7636"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    <script>var fmFCF86av6d04wp = function (e) {
+      if (e.data.type === 'resize') {
+        document.getElementById('fm-fc-f-86av6d04wp').style.minHeight = e.data.size + 'px'
+      }
+    };
+    window.addEventListener ? addEventListener('message', fmFCF86av6d04wp, !1) : attachEvent('onmessage', fmFCF86av6d04wp);
+    </script>
+    <iframe id="fm-fc-f-86av6d04wp" src="https://forms.freshmail.io/f/ehkv9kpsxi/86av6d04wp/index.html" frameborder="0"
+            marginheight="0" marginwidth="0" width="100%" style="min-height: 440px"></iframe>
   </body>
 </html>

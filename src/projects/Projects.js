@@ -10,13 +10,13 @@ function Projects() {
             <div className="projects">
                 <div className="item">
                     <div className="item-info">
-                        <h2>Project Title</h2>
+                        <h2>Project Portfolio</h2>
                         <span>13 december, 2014</span>
                     </div>
                 </div>
                 <div className="item">
                     <div className="item-info">
-                        <h2>Project Title</h2>
+                        <h2>Project Shop</h2>
                         <span>13 december, 2014</span>
                     </div>
                 </div>

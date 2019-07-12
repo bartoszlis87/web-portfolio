@@ -4,8 +4,7 @@
   display: flex;
   justify-content: space-between;
   text-align: center;
-  //left: 150px;
-  position: absolute;
+  position: relative;
 }
 
 .info h2 {
@@ -33,6 +32,14 @@
   width: auto;
   height: 400px;
   border-radius: 50%;
+}
+.box1{
+  font-size: 2rem;
+  color: white;
+  position: relative;
+  cursor: pointer;
+  margin-top: 200px;
+
 }
 
 .box1,
@@ -65,7 +72,10 @@
   width: 100%;
 }
 .description{
-  margin-top: 180px;
+
+}
+.descriptionRight{
+  margin-top: 320px;
 }
 
 .boxSize{
