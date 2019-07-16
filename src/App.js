@@ -11,6 +11,7 @@ import Projects from './projects/Projects.js';
 import Contact from './contact/Contact.js';
 import Video from "./video/Video.js";
 import LoginForm from "./loginForm/LoginForm.js";
+import LoginBox from './loginBox/LoginBox.js';
 import logo from "./images/logo.png"
 import './App.css';
 import './scss/reset.scss';
@@ -26,17 +27,6 @@ const providers = {
 class App extends Component {
     constructor(props) {
         super(props);
-//     const {
-//     user
-// ,
-//     signOut
-// ,
-//     signInWithGoogle
-// ,
-// }
-//
-// = this.props;
-
 
         this.state = {
 
@@ -58,15 +48,10 @@ class App extends Component {
     render() {
 
             const {
-    user
-,
-    signOut
-,
-    signInWithGoogle
-,
-}
-
-= this.props;
+    user,
+    signOut,
+    signInWithGoogle,
+} = this.props;
 
 
         let {loading} = this.state;
@@ -84,21 +69,21 @@ class App extends Component {
             return (
                 <>
                     {!user ? (
-                        <div className="App">
-                            <header className="App-header">
-                                <img src={logo} className="App-logo" alt="logo"/>
-                                {
-                                    user
-                                        ? <p>Hello, {user.displayName}</p>
-                                        : <p>Please sign in.</p>
-                                }
-                                {
-                                    user
-                                        ? <button onClick={signOut}>Sign out</button>
-                                        : <button onClick={signInWithGoogle}>Sign in with Google</button>
-                                }
-                            </header>
-                        </div>
+                        <LoginBox/>
+                        // <div className="App">
+                        //                         //     <header className="App-header">
+                        //                         //         {
+                        //                         //             user
+                        //                         //                 ? <p>Hello, {user.displayName}</p>
+                        //                         //                 : <p>Please sign in.</p>
+                        //                         //         }
+                        //                         //         {
+                        //                         //             user
+                        //                         //                 ? <button onClick={signOut}>Sign out</button>
+                        //                         //                 : <button onClick={signInWithGoogle}>Sign in with Google</button>
+                        //                         //         }
+                        //                         //     </header>
+                        //                         // </div>
                     ) : (
 
                         <div className="site">
